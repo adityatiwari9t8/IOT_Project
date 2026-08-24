@@ -1,0 +1,13 @@
+
+Smart Attendance currently has no project-specific header files.
+
+Place shared declarations here if the code is later split into multiple
+source files. For example:
+
+```text
+include/Attendance.h
+```
+
+Include project headers with quotes, such as `#include "Attendance.h"`.
+The external Arduino libraries used by this project are declared in
+`platformio.ini` and should not be copied into this directory.
