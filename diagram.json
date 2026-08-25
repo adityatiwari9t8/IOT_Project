@@ -3,7 +3,13 @@
   "author": "Ahmad Ramzi",
   "editor": "wokwi",
   "parts": [
-    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": -4.76,
+      "attrs": { "cpuFrequency": "max" }
+    },
     {
       "type": "wokwi-led",
       "id": "led1",
